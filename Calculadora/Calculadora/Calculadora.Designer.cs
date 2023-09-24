@@ -38,8 +38,8 @@
             tbxresultado = new TextBox();
             label5 = new Label();
             btnrestar = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            btnmultiplicar = new Button();
+            btndividir = new Button();
             SuspendLayout();
             // 
             // label1
@@ -66,49 +66,52 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(12, 71);
             label3.Name = "label3";
-            label3.Size = new Size(59, 21);
+            label3.Size = new Size(51, 17);
             label3.TabIndex = 2;
             label3.Text = "Valor 1";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(12, 169);
             label4.Name = "label4";
-            label4.Size = new Size(59, 21);
+            label4.Size = new Size(51, 17);
             label4.TabIndex = 3;
             label4.Text = "Valor 2";
             // 
             // tbxvalor1
             // 
-            tbxvalor1.BackColor = Color.DodgerBlue;
+            tbxvalor1.BackColor = Color.White;
+            tbxvalor1.BorderStyle = BorderStyle.None;
             tbxvalor1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            tbxvalor1.ForeColor = SystemColors.Window;
+            tbxvalor1.ForeColor = SystemColors.ControlDarkDark;
             tbxvalor1.Location = new Point(97, 69);
             tbxvalor1.Name = "tbxvalor1";
-            tbxvalor1.Size = new Size(176, 27);
+            tbxvalor1.Size = new Size(176, 20);
             tbxvalor1.TabIndex = 4;
             tbxvalor1.TextChanged += tbxvalor1_TextChanged;
             // 
             // tbxvalor2
             // 
-            tbxvalor2.BackColor = Color.DodgerBlue;
+            tbxvalor2.BackColor = Color.White;
+            tbxvalor2.BorderStyle = BorderStyle.None;
             tbxvalor2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            tbxvalor2.ForeColor = SystemColors.Window;
+            tbxvalor2.ForeColor = SystemColors.ControlDarkDark;
             tbxvalor2.Location = new Point(97, 167);
             tbxvalor2.Name = "tbxvalor2";
-            tbxvalor2.Size = new Size(176, 27);
+            tbxvalor2.Size = new Size(176, 20);
             tbxvalor2.TabIndex = 5;
             tbxvalor2.TextChanged += tbxvalor2_TextChanged;
             // 
             // btnsumar
             // 
-            btnsumar.BackColor = Color.Yellow;
-            btnsumar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnsumar.BackColor = SystemColors.MenuHighlight;
+            btnsumar.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            btnsumar.ForeColor = SystemColors.ButtonHighlight;
             btnsumar.Location = new Point(303, 69);
             btnsumar.Name = "btnsumar";
             btnsumar.Size = new Size(136, 41);
@@ -119,60 +122,69 @@
             // 
             // tbxresultado
             // 
-            tbxresultado.BackColor = Color.DodgerBlue;
+            tbxresultado.BackColor = Color.White;
+            tbxresultado.BorderStyle = BorderStyle.None;
             tbxresultado.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            tbxresultado.ForeColor = SystemColors.Window;
+            tbxresultado.ForeColor = SystemColors.ControlDarkDark;
             tbxresultado.Location = new Point(97, 268);
             tbxresultado.Name = "tbxresultado";
-            tbxresultado.Size = new Size(176, 27);
+            tbxresultado.Size = new Size(176, 20);
             tbxresultado.TabIndex = 7;
             tbxresultado.TextChanged += tbxresultado_TextChanged;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label5.Location = new Point(12, 274);
             label5.Name = "label5";
-            label5.Size = new Size(79, 21);
+            label5.Size = new Size(69, 17);
             label5.TabIndex = 8;
             label5.Text = "Resultado";
             // 
             // btnrestar
             // 
+            btnrestar.BackColor = SystemColors.MenuHighlight;
+            btnrestar.ForeColor = SystemColors.ButtonHighlight;
             btnrestar.Location = new Point(303, 129);
             btnrestar.Name = "btnrestar";
             btnrestar.Size = new Size(136, 37);
             btnrestar.TabIndex = 9;
             btnrestar.Text = "RESTAR";
-            btnrestar.UseVisualStyleBackColor = true;
+            btnrestar.UseVisualStyleBackColor = false;
             btnrestar.Click += btnrestar_Click;
             // 
-            // button2
+            // btnmultiplicar
             // 
-            button2.Location = new Point(303, 193);
-            button2.Name = "button2";
-            button2.Size = new Size(136, 36);
-            button2.TabIndex = 10;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnmultiplicar.BackColor = SystemColors.MenuHighlight;
+            btnmultiplicar.ForeColor = SystemColors.ButtonHighlight;
+            btnmultiplicar.Location = new Point(303, 193);
+            btnmultiplicar.Name = "btnmultiplicar";
+            btnmultiplicar.Size = new Size(136, 36);
+            btnmultiplicar.TabIndex = 10;
+            btnmultiplicar.Text = "MULTIPLICAR";
+            btnmultiplicar.UseVisualStyleBackColor = false;
+            btnmultiplicar.Click += btnmultiplicar_Click;
             // 
-            // button3
+            // btndividir
             // 
-            button3.Location = new Point(303, 259);
-            button3.Name = "button3";
-            button3.Size = new Size(136, 36);
-            button3.TabIndex = 11;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            btndividir.BackColor = SystemColors.MenuHighlight;
+            btndividir.ForeColor = SystemColors.ButtonHighlight;
+            btndividir.Location = new Point(303, 259);
+            btndividir.Name = "btndividir";
+            btndividir.Size = new Size(136, 36);
+            btndividir.TabIndex = 11;
+            btndividir.Text = "DIVIDIR";
+            btndividir.UseVisualStyleBackColor = false;
+            btndividir.Click += btndividir_Click;
             // 
             // Calculadora
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(462, 335);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(btndividir);
+            Controls.Add(btnmultiplicar);
             Controls.Add(btnrestar);
             Controls.Add(label5);
             Controls.Add(tbxresultado);
@@ -202,7 +214,7 @@
         private TextBox tbxresultado;
         private Label label5;
         private Button btnrestar;
-        private Button button2;
-        private Button button3;
+        private Button btnmultiplicar;
+        private Button btndividir;
     }
 }

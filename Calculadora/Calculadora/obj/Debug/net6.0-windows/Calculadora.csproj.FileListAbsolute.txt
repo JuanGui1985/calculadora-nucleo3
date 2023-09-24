@@ -3,7 +3,6 @@ D:\OneDrive - Politecnico Internacional\1527. Calidad del Software --\Artefactos
 D:\OneDrive - Politecnico Internacional\1527. Calidad del Software --\Artefactos_Nucleo3\Calculadora\Calculadora\bin\Debug\net6.0-windows\Calculadora.runtimeconfig.json
 D:\OneDrive - Politecnico Internacional\1527. Calidad del Software --\Artefactos_Nucleo3\Calculadora\Calculadora\bin\Debug\net6.0-windows\Calculadora.dll
 D:\OneDrive - Politecnico Internacional\1527. Calidad del Software --\Artefactos_Nucleo3\Calculadora\Calculadora\bin\Debug\net6.0-windows\Calculadora.pdb
-D:\OneDrive - Politecnico Internacional\1527. Calidad del Software --\Artefactos_Nucleo3\Calculadora\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.AssemblyReference.cache
 D:\OneDrive - Politecnico Internacional\1527. Calidad del Software --\Artefactos_Nucleo3\Calculadora\Calculadora\obj\Debug\net6.0-windows\Calculadora.Calculadora.resources
 D:\OneDrive - Politecnico Internacional\1527. Calidad del Software --\Artefactos_Nucleo3\Calculadora\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.GenerateResource.cache
 D:\OneDrive - Politecnico Internacional\1527. Calidad del Software --\Artefactos_Nucleo3\Calculadora\Calculadora\obj\Debug\net6.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig

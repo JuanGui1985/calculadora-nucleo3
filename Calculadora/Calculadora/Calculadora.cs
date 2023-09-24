@@ -56,5 +56,33 @@ namespace Calculadora
                 MessageBox.Show("Por favor ingresar  números válidos en ambos campos");
             }
         }
+
+        private void btnmultiplicar_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(tbxvalor1.Text, out int numero1) &&
+                int.TryParse(tbxvalor2.Text, out int numero2))
+            {
+                int resultado = numero1 * numero2;
+                tbxresultado.Text= resultado.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Por favor ingresar números válidos en ambos campos");
+            }
+        }
+
+        private void btndividir_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(tbxvalor1.Text, out int numero1) &&
+                int.TryParse(tbxvalor2.Text, out int numero2))
+            {
+                int resultado = numero1 / numero2;
+                tbxresultado.Text =(resultado.ToString());
+            }
+            else
+            {
+                MessageBox.Show("Por favor ingresar números válidos en ambos campos");
+            }
+        }
     }
 }
